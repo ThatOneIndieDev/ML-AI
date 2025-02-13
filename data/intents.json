@@ -1,0 +1,134 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "How are you?"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi! Welcome to our store. How can I help you?",
+        "Hey there! What can I do for you today?"
+      ]
+    },
+    {
+      "tag": "product_inquiry",
+      "patterns": [
+        "What products do you have?",
+        "Tell me about your products",
+        "Do you sell electronics?",
+        "What is available in clothing?",
+        "Can I see some shoes?"
+      ],
+      "responses": [
+        "We have a wide variety of products, including electronics, clothing, and accessories. What are you looking for specifically?",
+        "Our store has everything from gadgets to stylish apparel. Would you like to browse by category?",
+        "We sell various products. You can check our categories for more information."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?",
+        "What is the status of my order?",
+        "Has my order shipped?",
+        "When will my order arrive?"
+      ],
+      "responses": [
+        "Please provide your order number, and I'll help you track it.",
+        "I can help you with your order status. Can you share the order number?",
+        "Let me check that for you. Could you give me your order ID?"
+      ]
+    },
+    {
+      "tag": "shipping_info",
+      "patterns": [
+        "Do you ship internationally?",
+        "What are your shipping options?",
+        "How long does shipping take?",
+        "What is the cost of shipping?"
+      ],
+      "responses": [
+        "Yes, we ship internationally! Shipping times and costs vary based on your location. Please share your country, and I can give you more details.",
+        "We offer standard and express shipping options. The time and cost depend on your location.",
+        "Shipping time varies depending on the destination. Where would you like us to ship your order?"
+      ]
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "What payment methods do you accept?",
+        "Can I pay with a credit card?",
+        "Do you accept PayPal?",
+        "Is there an option for cash on delivery?"
+      ],
+      "responses": [
+        "We accept various payment methods including credit cards, PayPal, and more. Let me know if you need assistance with payment.",
+        "You can pay via credit card, debit card, or PayPal. Let me know if you have any issues.",
+        "We accept all major credit cards and PayPal. If you'd prefer, cash on delivery is also an option in some regions."
+      ]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": [
+        "What is your return policy?",
+        "How do I return an item?",
+        "Can I return a product?",
+        "What is the time frame for returns?"
+      ],
+      "responses": [
+        "Our return policy allows returns within 30 days of purchase. You can start a return process from your order page.",
+        "Returns are accepted within 30 days of receiving your order. Please visit your account page to initiate a return.",
+        "You can return items within 30 days. Would you like assistance with your return?"
+      ]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thank you so much",
+        "I appreciate it"
+      ],
+      "responses": [
+        "You're welcome! Let me know if you need any further assistance.",
+        "Happy to help! Feel free to reach out if you need anything else.",
+        "You're welcome! Have a great day ahead."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "Bye",
+        "See you later",
+        "Take care"
+      ],
+      "responses": [
+        "Goodbye! Hope to see you again soon.",
+        "Take care! Let us know if you need anything else.",
+        "Bye! Have a wonderful day!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?",
+        "I need assistance",
+        "Help me please",
+        "Can you assist me?"
+      ],
+      "responses": [
+        "Of course! How can I assist you today?",
+        "I'm here to help! What can I do for you?",
+        "Let me know how I can assist you."
+      ]
+    }
+  ]
+}
